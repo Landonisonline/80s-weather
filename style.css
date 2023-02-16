@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #182755;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.layer-1 {
+    background-color: #1C115B;
+    width: 100%;
+    height: 100px;
+}
+
+.layer-2 {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    text-align: center;
+    width: 100%;
+    height: 1050px;
+}
+
+.gradient-box {
+    background-image: linear-gradient(#1C115B, #A24C01);
+}
+
+.slim-line {
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.blue-box {
+    background-color: #182755;
+    border: #3656b7 9px solid;
+}
+
+.text {
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.yellow-text {
+    color: #CAB10B;
+    font-size: 3em;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.weather-panel-box {
+    padding: 3em 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather-panel {
+    display: grid;
+    grid-template-rows: 4, 25%;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1em;
+    background-image: linear-gradient(#5C5DCC, #010BB0);
+    border: #8983B3 solid 3px;
+    height: 50em;
+    width: 15em;
+}
+
+.day {
+    color: #0000fe;
+    padding: 1em 0 0 0;
+    font-size: 3em;
+}
+
+.weather-icon {
+    width: 13em;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.hi-lo-section {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lo-temp {
+    color: #7D7CE3;
+}
+
+.hi-temp {
+    color: #CAB10B;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto auto auto;
+}
+
+.temp {
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+.layer-3 {
+    background-color: #182755;
+    width: 100%;
+    height: 143px;
+}
+
+.scroll-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll {
+    width: 65%;
+}
